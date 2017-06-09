@@ -3,7 +3,8 @@ public class Reverse
 {
 public static void main(String args[])
 {
-StringBuffer sb=new StringBuffer();
-System.out.println(sb.reverse());
+StringBuffer sb=new StringBuffer("hello");
+sb.reverse();
+System.out.println(sb);
 }
 }
